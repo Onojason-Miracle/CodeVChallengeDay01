@@ -171,8 +171,8 @@ nav {
 }
 
 .div-icon:hover {
-  transform: scale(1.5);
-}
+    transform: scale(1.2);
+  }
 
 .services-icon {
   font-size: 5em;
@@ -199,14 +199,18 @@ nav {
   gap: 40px;
   align-items: center;
   justify-content: space-around;
-  margin-top: 5px;
+  padding-top: 5px;
   width: 1300px;
   margin: auto;
 }
 
 .card {
   width: 20rem;
-  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
 
 .modal-body,
@@ -315,7 +319,7 @@ nav {
   }
 
   .div-icon:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 
   .services-icon {
@@ -451,7 +455,7 @@ nav {
   }
 
   .div-icon:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 
   .services-icon {
@@ -621,7 +625,7 @@ nav {
   }
 
   .div-icon:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 
   .services-icon {
@@ -838,14 +842,14 @@ nav {
     gap: 40px;
     align-items: center;
     justify-content: space-around;
-    margin-top: 5px;
+    padding-top: 5px;
     width: 320px;
     margin: auto;
   }
 
   .card {
     width: 20rem;
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .modal-body,
